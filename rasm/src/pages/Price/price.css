@@ -1,0 +1,132 @@
+.priceSection1{
+    height: 120vh;
+    padding-top: 100px;
+}
+
+.price{
+    display: flex;
+    margin-left: 134px;
+    margin-right: 134px;
+    position: relative;
+}
+
+.priceContainer{
+    display: flex;
+}
+
+.priceWrap{
+    padding: 0px 15px 0px 15px;
+}
+
+.priceCard{
+    position: relative;
+    background-color: white;
+    border-radius: 50px;
+    border: 1px solid #F4E8E1;
+    padding: 30px 0px 30px 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+
+.priceCardImg{
+    position: relative;
+    border-radius: 200px;
+    border: 1px solid #F4E8E1;
+    background-color: white;
+    width: 283px;
+    height: 400px;
+}
+
+.priceImg{
+    border-radius: 200px;
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: 20px 15px 15px 15px;
+    position: relative;
+    z-index: 3;
+}
+
+.currency{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    left: auto;
+    color: #C28565;
+}
+
+.duration{
+    font-size: 14px;
+    font-weight: 400;
+    color: #6E6E6E;
+    margin-bottom: 0;
+    position: absolute;
+    right: 24px;
+    bottom: 5px;
+    white-space: nowrap;
+    display: block;
+}
+
+.priceCardPrice{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    color: #C28565;
+    display: block;
+    width: 50px;
+    padding: 30px;
+    margin-bottom: 0;
+    background-color: white;
+    border: 1px solid #F4E8E1;
+    text-align: right;
+    border-radius: 50%;
+    position: absolute;
+    right: 36%;
+    top: 26%;
+    z-index: 2;
+}
+
+.style1{
+    width: 238px;
+    background-color: #F4E8E1;
+    opacity: 1;
+    margin: 25px 0 !important;
+    border-top: 1px solid #F4E8E1;
+}
+
+.aList{
+    margin-left: 40px;
+    color: #6E6E6E;
+}
+
+.priceBtn{
+    margin-top: 25px;
+}
+
+.bookNow{
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-flex;
+    border: none;
+    text-align: center;
+    background-color: #C28565;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    border-radius: 5px;
+    padding: 21px 30px;
+    transition: 1s;
+}
+
+.bookNow:hover{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
