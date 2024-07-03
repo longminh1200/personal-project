@@ -1,0 +1,118 @@
+.serviceSection{
+    height: 140vh;
+    padding: 60px 0 120px 0;
+}
+
+.serviceContainer{
+    margin-left: 134px;
+    margin-right: 134px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.serviceCardContainer{
+    display: flex;
+}
+
+.serviceCard1{
+    margin-top: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    z-index: 1;
+}
+
+.serviceBox1{
+    position: relative;
+    background-color: #F9F3F0;
+    text-align: center;
+    padding: 25px;
+    transition: 0.4s ease-in-out;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+.serBoxIcon{
+    position: relative;
+    z-index: 1;
+    margin-bottom: 25px;
+}
+
+.serIcon{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 90px;
+    border-radius: 50%;
+    position: relative;
+    border: 5px solid white;
+    z-index: auto;
+    display: block;
+    margin: -80px 61.25px 0 61.25px;
+    transition: 0.4s;
+}
+
+.serIcon::after{
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    height: 104px;
+    width: 104px;
+    line-height: 95px;
+    border: 5px solid #C28565;
+    border-radius: 50%;
+    z-index: -1;
+    transition: 0.4s;
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.serImg:hover{
+    transform: scaleX(-1);
+    transition: all 0.4s ease-in-out;
+}
+
+.serImg{
+    transition: all 0.4s ease-in-out;
+}
+
+.serTxt1{
+    color: black;
+}
+
+.serTxt1:hover{
+    color: #C28565
+}
+.serTxt2{
+    color: black;
+}
+
+.imgLeaf{
+    animation: jumpAni 7s linear infinite;
+    position: absolute;
+    z-index: 0;
+    left: 94.35%;
+    top: 0%;
+}
+
+@keyframes jumpAni{
+    0%{
+        transform: translateY(0);
+    }
+    40%{
+        transform: translateY(-60px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}

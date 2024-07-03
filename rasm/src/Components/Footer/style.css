@@ -1,0 +1,205 @@
+.galleryContainer{
+    height: 50vh;
+    background:linear-gradient(0deg, rgba(7, 7, 7, 0.9), rgba(7, 7, 7, 0.9)), url('https://themeholy.com/wordpress/rasm/wp-content/uploads/2023/08/footer_bg_2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10rem;
+}
+
+.footerContainer{
+    display: flex;
+    margin-left: 134px;
+    margin-right: 134px;
+    position: relative;
+    justify-content: space-between;
+}
+
+.underFooter{
+    background-color: #53443D;
+    padding: 8px 0;
+    background-size: 100% auto;
+}
+
+.termTxt{
+    color: #fff;
+    transition: 1s;
+}
+
+.termTxt:hover{
+    color: #C28565;
+    transition: 1s;
+}
+
+.rasmTxt{
+    color: #C28565;
+    transition: 1s;
+}
+
+.rasmTxt:hover{
+    color: #fff;
+    transition: 1s;
+}
+
+.underFooterContainer{
+    margin-left: 134px;
+    margin-right: 134px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.phoneContainer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.phoneIcon1{
+    border-radius: 5px;
+    display: inline-flex;
+    padding: 10px;
+    color: #fff;
+    background-color:#C28565;
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+
+.linkTxt{
+    color: #b2b2b2;
+    transition: 1s;
+}
+
+.linkTxt:hover{
+    color: #C28565;
+    transition: 1s;
+}
+
+.linkTxt1{
+    color: #fff;
+    transition: 1s;
+}
+
+.linkTxt1:hover{
+    color: #C28565;
+    transition: 1s;
+}
+
+.pText{
+    color: #b2b2b2;
+    transition: 1s;
+}
+
+.pText:hover{
+    color: #C28565;
+    transition: 1s;
+}
+
+.mailContainer{
+    display: flex;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.mailIcon1{
+    border-radius: 5px;
+    display: inline-flex;
+    padding: 10px;
+    color: #fff;
+    background-color:#C28565;
+    height: 12px;
+    width: 12px;
+    margin-right: 10px;
+}
+
+.mText{
+    color: #b2b2b2;
+    transition: 1s;
+}
+
+.mText:hover{
+    color: #C28565;
+    transition: 1s;
+}
+
+
+.socialIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.socialIcon1{
+    border-radius: 5px;
+    display: inline-flex;
+    padding: 15px;
+    color: #fff;
+    background-color:#3D4250;
+    height: 16px;
+    width: 16px;
+    text-align: center;
+    transition: .6s;
+}
+
+.socialIcon1:hover{
+    background-color:#C28565;
+    color: #fff;
+    transform: rotate(360deg);
+}
+
+.postImg{
+    
+}
+
+.postImg:hover{
+    
+}
+
+/* .imgContainer{
+    position: relative;
+    overflow: hidden;
+    margin: 0 158px;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+/* .img1{
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+}
+
+.img2{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+}
+
+.img3{
+    background-color:blue;
+    width: 100%;
+    height: 100%;
+}
+
+.img4{
+    background-color:blueviolet ;
+    width: 100%;
+    height: 100%;
+}
+
+.img5{
+    background-color:brown;
+    width: 100%;
+    height: 100%;
+}
+
+.img6{
+    background-color:chartreuse;
+    width: 100%;
+    height: 100%;
+} */

@@ -1,0 +1,239 @@
+.upperNav{
+    position: relative;
+    padding: 12px 0;
+    background: #C28565;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.underNavWrapper{
+    border-top: 100px solid white;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 18%;
+}
+
+.underNavContainer{
+    display: flex;
+    width: 50%;
+    position: relative;
+    right: 5%;
+}
+
+.underNav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.upNavContain{
+    display: flex;
+    align-items: center;
+}
+
+.menuContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.menuIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20%;
+    position: relative;
+    right: 1%;
+}
+
+.logoImg{
+    position: relative;
+    bottom: 84px;
+    left: 10px;
+}
+
+.searchIcon{
+    border: none;
+    background-color: #353535;
+    border-radius: 50%;
+    display: inline-flex;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cartIcon{
+    background-color: #353535;
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 10px;
+    color: #fff;
+}
+
+.cartIcon:hover{
+    color: #fff;
+}
+
+.gridIcon{
+    background-color: #353535;
+    border-radius: 50%;
+    display: inline-flex;
+    padding: 10px;
+    color: #fff;
+}
+
+.gridIcon:hover{
+    color: #fff;
+}
+
+.registerBtn{
+    /* display: flex; */
+}
+
+.registerTxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C28565;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    transition: 2s;
+}
+
+.registerTxt:hover{
+    color: black;
+    background-color: #fff;
+    transition: 2s;
+}
+
+.socialContainer{
+    display: flex;
+    align-items: center;
+}
+
+.socialIcon{
+    margin-left: 20px;
+    color: black;
+    transition: 1s;
+    /* height: 20px;
+    width: 20px; */
+}
+
+.socialIcon:hover{
+    color: #fff;
+    transition: 1s;
+}
+
+.phoneContain{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.phoneNum{
+    color: #fff;
+    font-size: 12px;
+    transition: 1s;
+}
+
+.phoneNum:hover{
+    color: #353535;
+    transition: 1s;
+}
+
+.phoneIcon{
+    padding-right: 5px;
+    /* width: 20px;
+    height: 20px; */
+}
+
+.mailContain{
+    display: flex;
+    align-items: center;
+    border-left: solid 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.mailText{
+    color: #fff;
+    font-size: 12px;
+    transition: 1s;
+}
+
+.mailText:hover{
+    color:#353535;
+    transition: 1s;
+}
+
+.mailIcon{
+    padding-right: 5px;
+    /* width: 20px;
+    height: 20px; */
+}
+
+.locationContain{
+    display: flex;
+    align-items: center;
+    border-left: solid 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.locationText{
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.locationIcon{
+    padding-right: 5px;
+    /* width: 20px;
+    height: 20px; */
+}
+
+.timeContain{
+    display: flex;
+    align-items: center;
+    border-left: solid 1px;
+    padding-left: 20px;
+}
+
+.timeText{
+    color: #fff;
+    font-size: 12px;
+
+}
+
+.timeIcon{
+    padding-right: 5px;
+    /* width: 20px;
+    height: 20px; */
+}
+
+.homeBtn:focus{
+    outline: none;
+}
+
+.homeBtn:hover{
+    color: #C28565;
+    transition: 1s;
+}
+
+.homeBtn{
+    padding: 0;
+    border: none;
+    background:none;
+    display: flex;
+    align-items: center;
+    transition: 1s;
+}
+
+.menuTxt{
+    display: flex;
+    align-items: center;
+}
+

@@ -1,0 +1,210 @@
+.main{
+    /* height: 100vh; */
+}
+
+.pageTitle{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('https://themeholy.com/wordpress/rasm/wp-content/uploads/2023/08/breadcumb-bg.jpg');
+    background-size: cover;
+    background-color: #f7f7f7;
+    padding: 153px 0;
+    overflow: hidden;
+}
+
+.titleContainer{
+    width: 1250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 134px;
+    margin-right: 134px;
+}
+
+.arrowTxt{
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    padding: 0;
+    margin: 20px 0 -0.5em 0;
+    position: relative;
+}
+
+.about-Us{
+    padding: 120px 0 0px 0;
+    height: 80vh;
+    display: flex;
+    margin-left: 134px;
+    margin-right: 134px;
+    /* justify-content: center; */
+}
+
+.aboutContainer{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.aboutImg{
+    padding: 0px 15px 0px 15px;
+    position: relative;
+    width: 100%;
+}
+
+.img2{
+    position: absolute;
+    left: 21rem;
+    top: 9rem;
+}
+
+.aboutWrap{
+    padding: 0 15px 0 39px;
+    width: 100%;
+}
+
+.aboutWrapper{
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 33px;
+}
+
+.about-info{
+    background-color: #F9F3F0;
+    padding: 0px 22px;
+    width: 230px;
+}
+
+.discoverBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C28565;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    width: 25%;
+}
+
+.discoverBtn:hover{
+    color: white;
+    background-color: black;
+}
+
+.overflowContainer{
+    width: 1250px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 134px;
+    margin-right: 134px;
+}
+
+.counter-sec{
+    background-color: #F9F3F0;
+    border: 6px solid #fff;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    z-index: 4;
+    position: relative;
+    top: 7em;
+}
+
+.counterGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Inner{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.section31{
+    background-color: #F9F3F0;
+    height: 110vh;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 230px;
+}
+
+.section51{
+    background-image: url('https://themeholy.com/wordpress/rasm/wp-content/uploads/2023/08/appointment_bg_3.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top center;
+    height: 100vh;
+    padding-top: 120px;
+}
+
+.section101{
+    height: 100vh;
+    padding-top: 120px;
+    background-color: #F9F3F0;
+}
+
+.feedbackCard1{
+    padding: 40px 20px;
+    border: 1px solid #F4E8E1;
+    background-color: #fff;
+    /* width: 417px; */
+    position: relative;
+    text-align: center;
+}
+
+.gridCard1{
+    width: 31%;
+    background-color: #fff;
+    box-shadow: 0px 6px 15px 0px rgba(191, 191, 191, 0.2);
+}
+
+.gridTxt1{
+    padding: 0px 30px 30px 30px;
+}
+
+.plusBtn{
+    border-color:#C28565;
+    background-color: #C28565;
+    border-radius: 50%;
+    font-size: 18px;
+    color: white;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.teamName{
+    color: black;
+}
+
+.teamName:hover{
+    color: #C28565;
+}
+
+.moveX1{
+    position: absolute;
+    left: 0%;
+    bottom: 10%;
+    animation: moveX1 8s infinite ;
+    z-index: 1;
+}
+
+@keyframes moveX1{
+    0%,
+  100% {
+    left: -10%;
+  }
+
+  50% {
+    left: -5%;
+  }
+}
+
+.img71{
+    position: absolute;
+    z-index: 0;
+}
