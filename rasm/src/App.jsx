@@ -8,6 +8,7 @@ import Home from './pages/Home/home'
 import About from './pages/About-us/aboutUs'
 import Navbar from "./Components/Navbar/navbar"
 import Blank from './pages/blank/blank'
+import Team from './pages/Team/team'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
@@ -44,6 +45,7 @@ function App() {
           <Route path="/" element={<Home/>}/>
           <Route path="/about-us" element={<About/>}/>
           <Route path="/blank" element={<Blank/>}/>
+          <Route path="/team" element={<Team/>}/>
         </Routes>
         <Footer/>
       </Router>

@@ -1,0 +1,99 @@
+.teamSection{
+    height: 160vh;
+}
+
+.imgFlower{
+    animation: jumpAni 7s linear infinite;
+    position: absolute;
+    z-index: 0;
+    left: 86.5%;
+    top: 90%;
+}
+
+.imgFlower1{
+    animation: jumpAni 7s linear infinite;
+    position: absolute;
+    z-index: 0;
+    top: 80%;
+    left: -11%;
+}
+
+.teamContainer{
+    display: flex;
+    position: relative;
+    margin-left: 134px;
+    margin-right: 134px;
+    padding-top: 120px;
+}
+
+.teamWrap{
+    padding: 0px 15px 0px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.teamCardContainer{
+    display: flex;
+}
+
+.teamCard{
+    margin-top: 24px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.teamBox{
+    text-align: center;
+    border-radius: 150px 150px 0px 0px;
+    position: relative;
+    background-color: #F9F3F0;
+    z-index: 2;
+}
+
+.teamContent{
+    border: 1px solid #E8CDBF;
+    border-top: 1px solid transparent;
+    padding: 30px;
+    display: block;
+    background-color: white;
+}
+
+.teamImg{
+    border-radius: 150px 150px 0px 0px;
+    position: relative;
+}
+
+.socialBox{
+    margin-bottom: -0.4rem;
+}
+
+.teamName{
+    margin: 0;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.name{
+    color: black;
+    transition: 1s;
+}
+
+.name1{
+    color: #C28565;
+}
+
+.name:hover{
+    color: #C28565;
+    transition: 1s;
+}
+
+.teamIcon{
+    color: #6E6E6E;
+    font-size: 16px;
+    transition: 1s;
+}
+
+.teamIcon:hover{
+    color: #C28565;
+    transition: 1s;
+}
